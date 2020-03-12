@@ -84,6 +84,29 @@ The bios does not have to be version F5. However, I found this version easier to
 `Internal Graphics --> Enabled`  
 `Above 4G Decoding --> Enabled`
 
+### Bios Config (latest version F8c)
+
+**Updated Bios to latest**
+
+**Tweaker**
+`Advanced CPU Settings --> VT-d --> Disabled`
+`Extreme Memory Profile(X.M.P.) --> Profile 1`
+
+**Settings**
+`IO Ports --> Internal Graphics --> Enabled`
+`IO Ports --> Wi-Fi --> Disabled`
+`IO Ports --> Above 4G Decoding --> Enabled`
+`IO Ports --> USB Configuration --> Legacy USB Support --> Enabled`
+`IO Ports --> USB Configuration --> XHCI Hannd-off --> Enabled`
+`IO Ports --> Network Stack Configuration --> Network Stack --> Disabled`
+`Miscellaneous --> Intel Platform Trust Technology --> Disabled`
+`Miscellaneous --> Software Guard Extensions --> Disabled`
+
+**Boot**
+`Fast Boot --> Disabled`
+`CSM Support --> Disabled`  
+`Windows 8/10 Features --> Windows 8/10`
+
 ### All of our files and settings are now complete! Boot from USB and install!
 
 ## Post Installation Guide
