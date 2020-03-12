@@ -88,22 +88,22 @@ The bios does not have to be version F5. However, I found this version easier to
 
 **Updated Bios to latest**
 
-**Tweaker**
-`Advanced CPU Settings --> VT-d --> Disabled`
+**Tweaker**  
+`Advanced CPU Settings --> VT-d --> Disabled`  
 `Extreme Memory Profile(X.M.P.) --> Profile 1`
 
-**Settings**
-`IO Ports --> Internal Graphics --> Enabled`
-`IO Ports --> Wi-Fi --> Disabled`
-`IO Ports --> Above 4G Decoding --> Enabled`
-`IO Ports --> USB Configuration --> Legacy USB Support --> Enabled`
-`IO Ports --> USB Configuration --> XHCI Hannd-off --> Enabled`
-`IO Ports --> Network Stack Configuration --> Network Stack --> Disabled`
-`Miscellaneous --> Intel Platform Trust Technology --> Disabled`
+**Settings**  
+`IO Ports --> Internal Graphics --> Enabled`  
+`IO Ports --> Wi-Fi --> Disabled`  
+`IO Ports --> Above 4G Decoding --> Enabled`  
+`IO Ports --> USB Configuration --> Legacy USB Support --> Enabled`  
+`IO Ports --> USB Configuration --> XHCI Hannd-off --> Enabled`  
+`IO Ports --> Network Stack Configuration --> Network Stack --> Disabled`  
+`Miscellaneous --> Intel Platform Trust Technology --> Disabled`  
 `Miscellaneous --> Software Guard Extensions --> Disabled`
 
-**Boot**
-`Fast Boot --> Disabled`
+**Boot**  
+`Fast Boot --> Disabled`  
 `CSM Support --> Disabled`  
 `Windows 8/10 Features --> Windows 8/10`
 
