@@ -63,6 +63,26 @@
 					<key>Replace</key>
 					<data>oAqRCv8L//8=</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUhDMQ==</data>
+					<key>Replace</key>
+					<data>RUgwMQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUhDMg==</data>
+					<key>Replace</key>
+					<data>RUgwMg==</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -92,9 +112,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 dart=0 debug=0x100 slide=0 -v</string>
+		<string>keepsyms=1 dart=0 debug=0x100 -v agdpmod=pikera slide=0</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>Apollo</string>
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
@@ -134,15 +154,22 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+			<string>Recovery</string>
+		</array>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
 			<true/>
+			<key>Legacy</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>minimal-dark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -164,54 +191,6 @@
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Port limit increase</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g710////EA==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g710////Gw==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Port limit increase (RehabMan)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g32IDw+DpwQAAA==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g32ID5CQkJCQkA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Port limit increase (Ricky)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/sPD4OPBAAA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g/sPkJCQkJCQ</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
@@ -252,7 +231,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02030501QXLNV98C</string>
+		<string>C02005303QXLNV91M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -282,9 +261,9 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02D40M6JV3Q</string>
+		<string>C02C6RZ4JV3Q</string>
 		<key>SmUUID</key>
-		<string>CD0FB043-F62D-4F2E-AEC2-92FD360106D4</string>
+		<string>B06640E7-297D-47BC-AB6B-BE618C8E0BA4</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

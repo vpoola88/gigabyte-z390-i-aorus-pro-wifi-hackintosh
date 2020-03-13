@@ -1,5 +1,5 @@
 
-Clover EFI installer log - Mon Mar  9 12:16:43 PDT 2020
+Clover EFI installer log - Tue Mar 10 19:13:44 PDT 2020
 Installer version: v2.5k r5102 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
@@ -12,28 +12,34 @@ Installer version: v2.5k r5102 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +250.7 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh HD - Data     216.3 GB   disk1s1
+   1:                APFS Volume Macintosh HD - Data     191.5 GB   disk1s1
    2:                APFS Volume Preboot                 81.1 MB    disk1s2
-   3:                APFS Volume Recovery                528.5 MB   disk1s3
-   4:                APFS Volume VM                      2.1 GB     disk1s4
+   3:                APFS Volume Recovery                526.6 MB   disk1s3
+   4:                APFS Volume VM                      3.6 GB     disk1s4
    5:                APFS Volume Macintosh HD            10.8 GB    disk1s5
 
 /dev/disk2 (external, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *126.7 GB   disk2
+   0:      GUID_partition_scheme                        *32.0 GB    disk2
    1:                        EFI EFI                     209.7 MB   disk2s1
-   2:                  Apple_HFS Install macOS Catalina  126.4 GB   disk2s2
+   2:                  Apple_HFS Install macOS Catalina  31.7 GB    disk2s2
+
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +8.4 GB     disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS InstallESD              8.0 GB     disk3s2
 
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Install macOS Catalina/EFIROOTDIR/EFI folder to /Volumes/Install macOS Catalina/EFI-Backups/r5103/2020-03-09-12h16/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
 Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Catalina
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Catalina
 
+Theme 'Clovy' (defined in config.plist) not found !
 Using default theme 'embedded'
 ======================================================
 =========== Clover EFI Installation Finish ===========
